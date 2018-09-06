@@ -13,9 +13,7 @@ function init() {
     } else {
       index = 0;
     }
-   for (let i = 0; i < divs.length; i++) {
-	  divs[i].addEventListener('click', bubble);
-	}
+   
 
   }
 }
