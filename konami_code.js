@@ -13,6 +13,6 @@ function init() {
     } else {
       index = 0;
     }
-    document.body.eventListener
+    const body = document.getElementById('body');
   }
 }
