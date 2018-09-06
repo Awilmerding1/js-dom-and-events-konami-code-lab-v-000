@@ -14,6 +14,6 @@ function init() {
       index = 0;
     }
     const body = document.getElementById('body');
-    body.eventListener
+    body.addEventListener
   }
 }
