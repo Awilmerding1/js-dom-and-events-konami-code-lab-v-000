@@ -13,7 +13,9 @@ function init() {
     } else {
       index = 0;
     }
-    const body = document.getElementById('body');
-    body.addEventListener('', codeCheck)
+   for (let i = 0; i < divs.length; i++) {
+	  divs[i].addEventListener('click', bubble);
+	}
+
   }
 }
